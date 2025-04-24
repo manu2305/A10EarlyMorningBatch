@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[iam in home page]]>
+    </line>
+    <line>
+      <![CDATA[user is added successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-04-22T09:26:26 IST" name="Default suite" finished-at="2025-04-22T09:27:04 IST" duration-ms="37827">
+    <groups>
+    </groups>
+    <test started-at="2025-04-22T09:26:26 IST" name="Default test" finished-at="2025-04-22T09:27:04 IST" duration-ms="37827">
+      <class name="TestCase1.AdminModule">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:TestCase1.AdminModule@24569dba]" started-at="2025-04-22T09:26:26 IST" name="preCondition" finished-at="2025-04-22T09:26:32 IST" duration-ms="5727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestCase1.AdminModule@24569dba]" started-at="2025-04-22T09:26:32 IST" name="login" finished-at="2025-04-22T09:26:35 IST" duration-ms="3166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="tc_001()[pri:0, instance:TestCase1.AdminModule@24569dba]" started-at="2025-04-22T09:26:35 IST" name="tc_001" finished-at="2025-04-22T09:27:01 IST" duration-ms="25791" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[iam in home page]]>
+            </line>
+            <line>
+              <![CDATA[user is added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_001 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestCase1.AdminModule@24569dba]" started-at="2025-04-22T09:27:01 IST" name="logout" finished-at="2025-04-22T09:27:04 IST" duration-ms="2875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCase1.AdminModule@24569dba]" started-at="2025-04-22T09:27:04 IST" name="postCondition" finished-at="2025-04-22T09:27:04 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- TestCase1.AdminModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
